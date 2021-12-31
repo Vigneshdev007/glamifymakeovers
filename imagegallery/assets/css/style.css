@@ -29,6 +29,22 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
+/* custom scroll bar */
+::-webkit-scrollbar {
+	width: 10px;
+}
+::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+	background: #34b7a7;
+	border-radius: 30px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
