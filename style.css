@@ -382,6 +382,21 @@ section .container {
 	font-family: "Poppins", sans-serif;
 }
 
+.worktext{
+	text-align: center;
+	font-weight: 600;
+	text-transform: uppercase;
+	height: 60px;
+	background: #000;
+	padding: 13px;
+}
+
+@media (max-width: 500px) {
+	.worktext {
+		font-size: 25px;
+	}
+}
+
 .section-title h2::after {
 	content: "";
 	width: 120px;
